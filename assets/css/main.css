@@ -1,0 +1,46 @@
+body{
+  margin: 0
+}
+#inputs{
+  background-color: #F6A623;
+  color: #fff;
+  width: 100%;
+  padding: 2vh;
+  text-align: center;
+}
+#punto-partida{
+  margin-right: 20em;
+}
+#punto-partida, #punto-destino{
+  border: 1px solid #fff;
+  background-color: #F6A623;
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  width: 20em;
+}
+#punto-partida::placeholder, #punto-destino::placeholder{
+  color: #fff;
+}
+#punto-partida:focus, #punto-destino:focus{
+  outline: none;
+}
+#trazar-ruta{
+  margin-left: 3em;
+  background-color: #fff;
+  border-radius: 0.5em;
+  padding: 1em;
+  border: none;
+}
+#map{
+  width: 100%;
+  height: 90vh;
+}
+#encuentrame{
+  width: 100%;
+  height: 10vh;
+  background-color: #F6A623;
+  color: #fff;
+  font-size: 1.5em;
+  border: none;
+}
